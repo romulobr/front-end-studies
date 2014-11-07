@@ -1,0 +1,17 @@
+{
+  "name": "front-end-studies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "gulp-livereload": "^2.1.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "connect-livereload": "^0.5.0",
+    "express": "^4.10.1",
+    "tiny-lr": "^0.1.4"
+  }
+}

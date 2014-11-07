@@ -1,0 +1,157 @@
+/** * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/) * Richard Clark (http://richclarkdesign.com) * http://cssreset.com */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Roboto', OpenSans, sans-serif;
+    font-size: 12pt;
+}
+
+body {
+    line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+.material {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.top-bar {
+    position: relative;
+    width: 100%;
+    top: 0px;
+    padding: 10px;
+    margin-bottom: 2px;
+    background-color: #FFE082;
+    height: 40px;
+}
+
+.top-bar h1 {
+    font-size: 1.6em;
+    padding-top: 7px;
+    text-align: center;
+}
+.content {
+    display: block;
+    text-align: left;
+}
+
+.content h2 {
+    font-size: 1.2em;
+    padding-top: 7px;
+    margin-bottom: 5px;
+    text-align: center;
+    flex-direction: row;
+}
+
+.content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.content ul li {
+    list-style: none;
+    height: 60px;
+    border-bottom: grey;
+    width: 100%;
+    border-bottom:  solid #dddddd 1px;
+}
+.restaurant-image {
+    width: 50px;
+    margin-left: 14px;
+    float: left;
+}
+
+.restaurant-name{
+    display: block;
+    font-size: 1.4em;
+    padding-left: 40px;
+    padding-top: 16px;
+    float: left;
+}
+
+.order-time {
+    position: relative;
+    display: block;
+    font-size: 1.8em;
+    text-align: right;
+    padding-left: 40px;
+    padding-top: 13px;
+    float: none;
+}
+
+.delivery-time {
+
+}
